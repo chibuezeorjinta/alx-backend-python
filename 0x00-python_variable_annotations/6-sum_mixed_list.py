@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """List with mixed input"""
+from typing import List, Union
 
 
-def sum_mixed_list(mxd_lst: list[int | float]) -> float:
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     """
     Sums each value of mxd_lst
     :param mxd_lst: list of floats and ints

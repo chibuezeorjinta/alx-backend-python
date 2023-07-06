@@ -3,6 +3,7 @@
 
 import math
 
+
 def floor(n: float) -> int:
     """
     collects a float and floor it.
