@@ -8,11 +8,11 @@ from typing import Union, Tuple
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
-    """
-    Put the arguments in a tuple
-    :param k: string argument
-    :param v: second argument
-    :return: tuple
-    """
-    out_tuple: Tuple[str, float] = (k, v*v)
-    return out_tuple
+	"""
+	Put the arguments in a tuple
+	:param k: string argument
+	:param v: second argument
+	:return: tuple
+	"""
+	out_tuple: Tuple[str, float] = (k, v*v)
+	return out_tuple
